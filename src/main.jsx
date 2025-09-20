@@ -9,7 +9,7 @@ import HappyCanvas from "./pages/HappyCanvas.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Bitacora">
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
